@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cf-take-home-test-site",
+  "compatibility_date": "2025-04-04",
+  "main": "./workers/app.ts",
+  "d1_databases": [
+    {
+      "database_id": "011d37a9-2920-4f6f-865b-e65c1a40317b",
+      "database_name": "cf-take-home-test-site-db",
+      "binding": "DB",
+      "migrations_dir": "./app/migrations"
+    }
+  ]
+}
