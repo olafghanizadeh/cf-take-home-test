@@ -29,7 +29,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                     <span className="text-3xl font-bold">Cloudflare Take Home Test</span>
                 </Link>
             </header>
-            <main className="flex items-center justify-center pt-16 pb-4 container mx-auto md:w-1/3 w-full">
+            <main className="flex items-center justify-center pt-16 pb-4 container mx-auto md:w-1/3 w-full px-4 md:px-0">
                 <Outlet />
             </main>
         </>
