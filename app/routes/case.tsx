@@ -26,7 +26,7 @@ export async function loader({ params, context }: Route.LoaderArgs) {
                 next: null
             }
         }
-        if (i + 1 < navigationQuery.results.length) {
+        if (i + 1 === navigationQuery.results.length) {
             return {
                 previous: null,
                 next: r.id + 1
@@ -53,7 +53,7 @@ export default function Case({ loaderData }: Route.ComponentProps) {
             <div className="prose prose-lg prose-neutral prose-invert">
                 <h1>Case {id} – {subject}</h1>
                 <p className="text-3xl font-bold uppercase text-stone-700">Question</p>
-                <p className="text-lg italic">{question}</p>
+                <Markdown>{question}</Markdown>
                 <hr />
                 <div>
                     <p className="text-3xl font-bold uppercase text-stone-700">Answer</p>
