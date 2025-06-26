@@ -3,6 +3,7 @@
   "name": "cf-take-home-test",
   "compatibility_date": "2025-04-04",
   "main": "./workers/app.ts",
+  "compatibility_flags": ["nodejs_compat"],
   "d1_databases": [
     {
       "database_id": "011d37a9-2920-4f6f-865b-e65c1a40317b",
