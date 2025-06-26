@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "cf-take-home-test-site",
+  "name": "cf-take-home-test",
   "compatibility_date": "2025-04-04",
   "main": "./workers/app.ts",
   "d1_databases": [
